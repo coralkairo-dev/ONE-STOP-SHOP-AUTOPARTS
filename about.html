@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moto-Xtreme | About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        main {
+            flex-grow: 1;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .card-img-top {
+            height: 250px;
+            object-fit: cover;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="bi bi-bicycle me-2"></i>ONE STOP SHOP AUTOPARTS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house-door-fill me-2"></i>Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"><i class="bi bi-tags-fill me-2"></i>Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="products.html">All Products</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="category1.html">JVT</a></li>
+                            <li><a class="dropdown-item" href="category2.html">RS8</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html"><i class="bi bi-info-circle-fill me-2"></i>About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html"><i class="bi bi-envelope-fill me-2"></i>Contact</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a href="cart.html" class="btn btn-outline-light me-2"><i class="bi bi-cart-fill me-2"></i>Cart (0)</a>
+                    
+    </nav>
+    
+    <!-- Main Content Area -->
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <h1 class="text-center mb-4 display-4 fw-bold text-dark">About JVT & RS8</h1>
+                <p class="lead text-center text-muted">RS8 is a trusted aftermarket motorcycle parts brand specializing in high-performance CVT and engine components for popular scooters and underbone motorcycles. Known for durability and precision engineering, RS8 parts are designed to enhance acceleration, top speed, and overall riding performance for Yamaha NMAX, Aerox, Honda Click, PCX, ADV, Mio, and more</p>
+                <p class="text-center">JVT Racing Performance Parts is one of the most recognized aftermarket motorcycle brands in the Philippines and across Southeast Asia, trusted by thousands of riders for producing top-tier performance upgrades that rival OEM quality at a fraction of the cost.</p>
+                
+                <hr class="my-5">
+                
+                <!-- Staff Section -->
+                <h2 class="text-center mb-5 text-dark fw-bold"><i class="bi bi-people-fill me-2"></i>Meet My Mechanics</h2>
+                <div class="row g-4 justify-content-center">
+                    <!-- Manager Card -->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex">
+                        <div class="card bg-dark text-light shadow-lg flex-fill border-dark border-3 rounded-4">
+                            <img src="images/gibson.jpg" class="card-img-top rounded-top-4" alt="Manager Profile">
+                            <div class="card-body d-flex flex-column align-items-center text-center rounded-bottom-4">
+                                <h5 class="card-title fw-bold text-danger">Gibson "The Boss" Ego</h5>
+                                <p class="card-text mb-1 fw-semibold">General Manager</p>
+                                <p class="text-muted small mb-3">15 years experience, handles strategic vision and operations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Admin Card -->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex">
+                        <div class="card bg-dark text-light shadow-lg flex-fill border-dark border-3 rounded-4">
+                            <img src="images/angel.jpg" class="card-img-top rounded-top-4" alt="Admin Profile">
+                            <div class="card-body d-flex flex-column align-items-center text-center rounded-bottom-4">
+                                <h5 class="card-title fw-bold text-primary">Clifford "The Fixer" Angel</h5>
+                                <p class="card-text mb-1 fw-semibold">Office Administrator</p>
+                                <p class="text-muted small mb-3">Manages logistics, HR, and keeping the gears turning smoothly.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Staff (Mechanic) Card -->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex">
+                        <div class="card bg-dark text-light shadow-lg flex-fill border-dark border-3 rounded-4">
+                            <img src="images/coryl.jpg" class="card-img-top rounded-top-4" alt="Staff Profile">
+                            <div class="card-body d-flex flex-column align-items-center text-center rounded-bottom-4">
+                                <h5 class="card-title fw-bold text-success">Coryl Cain "The Wrecker" Bolares</h5>
+                                <p class="card-text mb-1 fw-semibold">Chief Mechanic</p>
+                                <p class="text-muted small mb-3">Certified master mechanic for Kawasaki and Honda dirt bikes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sales Boy (Specialist) Card -->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex">
+                        <div class="card bg-dark text-light shadow-lg flex-fill border-dark border-3 rounded-4">
+                            <img src="images/benito.jpg" class="card-img-top rounded-top-4" alt="Sales Profile">
+                            <div class="card-body d-flex flex-column align-items-center text-center rounded-bottom-4">
+                                <h5 class="card-title fw-bold text-warning-emphasis">Alijandro Benito Ali "The Scammer" Muhamad Abdul</h5>
+                                <p class="card-text mb-1 fw-semibold">Sales Boy</p>
+                                <p class="text-muted small mb-3">Passionate rider who helps customers find their perfect match.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer (consistent with other pages) -->
+    <footer class="footer">
+        <div class="container text-center">
+            <span>&copy; 2025 Moto-Xtreme. All Rights Reserved.</span>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
